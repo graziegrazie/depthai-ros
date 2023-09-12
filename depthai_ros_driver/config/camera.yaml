@@ -1,5 +1,5 @@
 /oak:
-  camera_i_enable_imu: true
+  camera_i_enable_imu: false
   camera_i_enable_ir: true
   camera_i_floodlight_brightness: 0.0
   camera_i_ip: ''
@@ -13,15 +13,15 @@
   left_i_board_socket_id: 1
   left_i_calibration_file: ''
   left_i_fps: 30.0
-  left_i_height: 720
+  left_i_height: 400
   left_i_low_bandwidth: false
   left_i_low_bandwidth_quality: 50
   left_i_max_q_size: 30
   left_i_preview_size: 300
   left_i_publish_topic: false
-  left_i_resolution: '720'
+  left_i_resolution: '800P'
   left_i_set_isp_scale: true
-  left_i_width: 1280
+  left_i_width: 640
   left_r_exposure: 1000
   left_r_focus: 1
   left_r_iso: 800
@@ -34,8 +34,8 @@
   rgb_i_board_socket_id: 0
   rgb_i_calibration_file: ''
   rgb_i_enable_preview: false
-  rgb_i_fps: 60.0
-  rgb_i_height: 720
+  rgb_i_fps: 30.0
+  rgb_i_height: 400
   rgb_i_interleaved: false
   rgb_i_keep_preview_aspect_ratio: true
   rgb_i_low_bandwidth: false
@@ -43,10 +43,10 @@
   rgb_i_max_q_size: 30
   rgb_i_preview_size: 300
   rgb_i_publish_topic: true
-  rgb_i_resolution: '1080'
+  rgb_i_resolution: '800P'
   rgb_i_set_isp_scale: true
   rgb_i_output_isp: true
-  rgb_i_width: 1280
+  rgb_i_width: 640
   rgb_r_exposure: 1000
   rgb_r_focus: 1
   rgb_r_iso: 800
@@ -55,20 +55,20 @@
   rgb_r_set_man_focus: false
   rgb_r_set_man_whitebalance: false
   rgb_r_whitebalance: 3300
-  rgb_i_isp_num: 2
-  rgb_i_isp_den: 3
+  rgb_i_isp_num: 1
+  rgb_i_isp_den: 2
   right_i_board_socket_id: 2
   right_i_calibration_file: ''
   right_i_fps: 30.0
-  right_i_height: 720
+  right_i_height: 400
   right_i_low_bandwidth: false
   right_i_low_bandwidth_quality: 50
   right_i_max_q_size: 30
   right_i_preview_size: 300
   right_i_publish_topic: false
-  right_i_resolution: '720'
+  right_i_resolution: '800P'
   right_i_set_isp_scale: true
-  right_i_width: 1280
+  right_i_width: 640
   right_r_exposure: 1000
   right_r_focus: 1
   right_r_iso: 800
@@ -91,7 +91,7 @@
   stereo_i_enable_temporal_filter: false
   stereo_i_enable_threshold_filter: false
   stereo_i_extended_disp: false
-  stereo_i_height: 720
+  stereo_i_height: 400
   stereo_i_low_bandwidth: false
   stereo_i_low_bandwidth_quality: 50
   stereo_i_lr_check: true
@@ -108,4 +108,4 @@
   stereo_i_temporal_filter_persistency: VALID_2_IN_LAST_4
   stereo_i_threshold_filter_max_range: 15000
   stereo_i_threshold_filter_min_range: 400
-  stereo_i_width: 1280
+  stereo_i_width: 640
